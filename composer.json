@@ -2,7 +2,7 @@
   "name": "attlaz/project",
   "description": "Manage and visualize processes",
   "type": "project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "require": {
     "php": "^7.2.0",
     "attlaz/project-base": "^1.0.0",
@@ -10,7 +10,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Echron\\Attlaz\\": "src"
+      "App\\": "src/App"
     }
   },
   "require-dev": {
@@ -23,6 +23,5 @@
       "type": "composer",
       "url": "https://repo.attlaz.com/"
     }
-  ],
-  "minimum-stability": "dev"
+  ]
 }
