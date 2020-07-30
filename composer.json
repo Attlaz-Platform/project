@@ -2,7 +2,7 @@
   "name": "attlaz/project",
   "description": "Manage and visualize processes",
   "type": "project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "require": {
     "php": "^7.2.0",
     "attlaz/project-base": "^1.3.2",
