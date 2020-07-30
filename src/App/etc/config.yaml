@@ -1,0 +1,4 @@
+someconfig:
+    somesetting:
+        key1: 'Alfa'
+        key2: 1234
