@@ -1,5 +1,38 @@
-.idea
-vendor
-*.iml
+##### Attlaz
 var/cache/*
+.env
+bin/*
+
+##### MacOS
+# General
 .DS_Store
+.AppleDouble
+.LSOverride
+
+##### Windows
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+##### Composer
+composer.phar
+/vendor/
+
+##### PuTTY
+# Private key
+*.ppk
+
+##### JetBrains
+.idea
+*.iml
+.idea_modules/
+
+##### VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
