@@ -1,8 +1,15 @@
 {
   "name": "attlaz/project",
-  "description": "Manage and visualize processes",
+  "description": "Attlaz iPaas solutions & tools for cloud connected businesses, automation and scaling",
+  "keywords": [
+    "ipaas",
+    "connection",
+    "synchronize"
+  ],
+  "license": "MIT",
   "type": "project",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "homepage": "https://attlaz.com",
   "require": {
     "php": "^7.2.0",
     "attlaz/project-base": "^1.3.2",
