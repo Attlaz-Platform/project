@@ -34,16 +34,14 @@ class DemoCommand extends AbstractCommand
         /**
          * Read/Write storage
          */
-        $pool1 = $this->cacheManager->getCache('pool1');
+        $this->storageManager->cache->setItem('value1', 'Lorem ipsum', null, 'pool1');
 
 
-        $pool1->set('value1', 'Lorem ipsum');
-
-        $cacheValue1 = $pool1->get('Pool1', 'value1');
-        $this->logger->info('Cache value for value1 in pool1: ' . $cacheValue1);
+        $cacheValue1 = $this->storageManager->cache->getItem('Pool1', 'pool1');
+        $this->logger->info('Cache value for value1 in pool1: ' . $cacheValue1->value);
 
 
-        $cachePoolKeys = $this->cacheManager->getCachePoolKeys();
+        $cachePoolKeys = $this->storageManager->cache->getPoolKeys();
         $this->logger->info('Cache pools: ' . \implode(', ', $cachePoolKeys));
 
 
